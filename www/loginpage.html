@@ -1,0 +1,19 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="center">チャットアプリ</div>
+    </ons-toolbar>
+
+    <div style="text-align: center">
+        <form name=userName>
+            <section style="padding: 8px">
+                <input type="text" class="text-input" ng-model="text" placeholder="Input your name here" style="display: block; width: 100%" name="textbox">
+            </section>
+            <br>
+            <ons-button
+                ng-click="myNavigator.pushPage('listTest.html')">
+                ログインする
+            </ons-button>
+        </form>
+    </div>
+
+</ons-page>
